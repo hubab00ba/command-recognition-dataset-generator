@@ -1,0 +1,31 @@
+{
+  "name": "command-recognition-dataset-generator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node app.ts",
+    "prettier": "./node_modules/prettier/bin-prettier.js --write .",
+    "prettier:check": "./node_modules/prettier/bin-prettier.js --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.20",
+    "@types/fs-extra": "^11.0.1",
+    "@types/lodash": "^4.14.195",
+    "@types/uuid": "^9.0.2",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3"
+  }
+}
